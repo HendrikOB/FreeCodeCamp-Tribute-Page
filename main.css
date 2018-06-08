@@ -2,28 +2,29 @@ html,body{
   	text-align:center;
   	min-width:260px;
   	color:#333;
-	margin-bottom: 0;
+	margin: 0;
 }
 
 #main{
-	margin-top: 30px;
   background: #eee;
   padding: 15px;
 }
 
 #img-div{
-	margin: -5px;
+	margin: 1px;
 	width:100%;
 	background: white;
 	margin-top: 20px;
 }
 
 #image{
-	padding-top: 20px;
+	padding-top: -20px;
+	transform: scale(0.8);
 }
 
 #img-caption{
 	margin: 15px;
+	margin-top: -70px !important;
 }
 
 #tribute-info{
